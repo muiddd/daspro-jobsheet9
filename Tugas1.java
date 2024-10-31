@@ -31,8 +31,8 @@ public class Tugas1 {
 
         System.out.println("--- Hasil ---");
         System.out.print("Nilai Mahasiswa: ");
-        for (int nilai : nilaiMahasiswa) {
-            System.out.print(nilai + " ");
+        for (int i = 0; i < jumlahMahasiswa; i++) {
+            System.out.print(nilaiMahasiswa[i] + " ");
         }
         System.out.println(" ");
         System.out.println("Nilai Rata-Rata : " + rataRata);
